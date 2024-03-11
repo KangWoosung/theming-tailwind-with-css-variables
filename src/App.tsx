@@ -1,12 +1,12 @@
-import "./output.css";
+import ThemedDiv from "./components/ThemedDiv";
+import "./index.css";
 
 function App() {
   return (
     <>
-      <div></div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <h1>Tailwind Theme</h1>
+      <p className="read-the-docs"></p>
+      <ThemedDiv />
     </>
   );
 }
